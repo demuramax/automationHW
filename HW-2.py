@@ -7,3 +7,5 @@ print(*cat_lst, sep=', ')
 #3nd variant:
 print(', '.join(cat_lst))
 
+
+
