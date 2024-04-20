@@ -1,11 +1,10 @@
 #1st variant
-print('Enter a:')
-a = int(input())
-print('Enter b:')
-b = int(input())
+a = int(input('Enter a:'))
+b = int(input('Enter b:'))
 
-print(a + b)
-print(a * b)
+print(f"{a} + {b} = {a + b}")
+print(f"{a} * {b} = {a * b}")
+
 print()
 
 
