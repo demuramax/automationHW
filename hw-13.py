@@ -25,8 +25,13 @@ def email_validator(email):
         return False
     return True
 
+print(email_validator(email))
 # strings for testing your code in comments.
-"max@gmail.com"
-'max@gmail'
-'max@gmail@com'
-'@max.com'
+# "max@gmail.com"
+# 'max@gmail'
+# 'max@gmail@com'
+# '@max.com'
+# 'max.com'
+# 'max@com.'
+# 'max@com'
+# 'max@gmail..com'
