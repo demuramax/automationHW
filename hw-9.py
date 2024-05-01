@@ -9,5 +9,5 @@ else:
             print(y, end=" ")
 
         for y in range(x-1, 0, -1):
-            print(y, end=" ")
+            print(y, end=' ')
         print()
