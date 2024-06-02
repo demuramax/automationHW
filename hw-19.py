@@ -12,6 +12,8 @@ users = [
 ]
 
 Result: ['Olaf Andvarafors', 'Brun Du Barnstokr']
+names_list = []
 for x in users:
     if x['age'] > 17:
-        print(x['name'])
+        names_list.append(x['name'])
+print(names_list)
